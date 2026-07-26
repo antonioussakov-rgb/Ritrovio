@@ -256,15 +256,22 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.5px;line-heig
 .visit-head{text-align:center;max-width:640px;margin:0 auto 52px}
 .visit-head .eyebrow{margin-bottom:16px}
 .visit-head h2{font-size:clamp(34px,5vw,54px)}
-.visit{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:stretch}
+.visit{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:start}
 .visit .info-row{padding:18px 0;border-top:1px solid var(--hair);display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:baseline}
 .visit .info-row .k{font-size:13px;color:var(--gold);letter-spacing:.4px}
 .visit .info-row .v{font-size:16px;color:var(--ink)}
-.hours{line-height:1.95}
-.hours .closed{color:var(--taupe);opacity:.7}
-.visit-cta{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
-.map-wrap{border-radius:10px;overflow:hidden;min-height:460px;border:1px solid var(--hair)}
-.map-wrap iframe{width:100%;height:100%;min-height:460px;border:0;display:block;filter:grayscale(.25) contrast(.96)}
+.visit-cta{display:flex;gap:14px;margin-top:26px;flex-wrap:wrap}
+.map-wrap{border-radius:10px;overflow:hidden;min-height:440px;border:1px solid var(--hair)}
+.map-wrap iframe{width:100%;height:100%;min-height:440px;border:0;display:block;filter:grayscale(.25) contrast(.96)}
+/* horaires : grille alignée jour / heure */
+.hours-block{margin-top:64px;border-top:1px solid var(--hair);padding-top:40px}
+.hours-title{font-size:13px;color:var(--gold);letter-spacing:.4px;text-transform:uppercase;font-family:var(--sans);font-weight:500;text-align:center;margin-bottom:24px}
+.hours-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 56px;max-width:840px;margin:0 auto}
+.hrow{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:13px 2px;border-bottom:1px solid var(--hair)}
+.hrow .day{font-size:15.5px;color:var(--ink)}
+.hrow .time{font-size:15px;color:var(--taupe);text-align:right;font-variant-numeric:tabular-nums}
+.hrow.closed .day{color:var(--taupe);opacity:.8}
+.hrow.closed .time{color:var(--gold);letter-spacing:.06em}
 
 .sticky-cta{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);z-index:40;
   box-shadow:0 8px 30px rgba(70,57,52,.18);transition:opacity .4s,transform .4s}
@@ -348,6 +355,11 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.5px;line-heig
   .footer{padding:64px 0 32px}
   .footer-bottom{justify-content:center;text-align:center}
   .visit-cta .btn{flex:1}
+  .hours-block{margin-top:44px;padding-top:32px}
+  .hours-grid{grid-template-columns:1fr;gap:0}
+  .hrow{padding:12px 0}
+  .hrow .day{font-size:15px}
+  .hrow .time{font-size:14px}
   .modal-box{padding:30px 24px}
   .field-2{grid-template-columns:1fr}
   .sticky-cta .btn{padding:12px 22px}
@@ -533,6 +545,42 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.5px;line-heig
   </div>
 </section>
 
+<!-- VISITE + MAPS + HORAIRES -->
+<section class="section" id="visite">
+  <div class="wrap">
+    <div class="visit-head reveal">
+      <div class="eyebrow">Nous rendre visite</div>
+      <h2>Réservez votre table</h2>
+    </div>
+    <div class="visit">
+      <div class="visit-info reveal">
+        <div class="info-row"><span class="k">Adresse</span><span class="v">28 Rue de la Paroisse<br>77300 Fontainebleau</span></div>
+        <div class="info-row"><span class="k">Téléphone</span><span class="v"><a href="tel:+33665902392" style="border-bottom:1px solid var(--gold);padding-bottom:2px">06 65 90 23 92</a></span></div>
+        <div class="info-row"><span class="k">Services</span><span class="v">Sur place · À emporter · Livraison · Terrasse</span></div>
+        <div class="visit-cta">
+          <a class="btn btn-dark" href="#" id="openModal2">Réserver par SMS</a>
+          <a class="btn btn-light" href="https://www.google.com/maps/dir/?api=1&destination=28+Rue+de+la+Paroisse+77300+Fontainebleau" target="_blank" rel="noopener">Itinéraire</a>
+        </div>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe title="Localisation Il Ritrovo, 28 Rue de la Paroisse, Fontainebleau" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=28%20Rue%20de%20la%20Paroisse%2C%2077300%20Fontainebleau&output=embed"></iframe>
+      </div>
+    </div>
+    <div class="hours-block reveal">
+      <h4 class="hours-title">Horaires d'ouverture</h4>
+      <div class="hours-grid">
+        <div class="hrow"><span class="day">Lundi</span><span class="time">12h–14h · 18h30–22h</span></div>
+        <div class="hrow"><span class="day">Mardi</span><span class="time">12h–14h · 18h30–23h</span></div>
+        <div class="hrow closed"><span class="day">Mercredi</span><span class="time">Fermé</span></div>
+        <div class="hrow"><span class="day">Jeudi</span><span class="time">12h–14h · 18h30–23h</span></div>
+        <div class="hrow"><span class="day">Vendredi</span><span class="time">12h–14h · 18h30–23h</span></div>
+        <div class="hrow"><span class="day">Samedi</span><span class="time">12h–14h30 · 18h30–23h</span></div>
+        <div class="hrow closed"><span class="day">Dimanche</span><span class="time">Fermé</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- AVIS -->
 <section class="section reviews" id="avis">
   <div class="wrap">
@@ -547,39 +595,6 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.5px;line-heig
       <div class="rev-card reveal"><div class="stars">★★★★★</div><p>« Une jolie découverte d'un vrai italien : un endroit cosy où l'on se sent presque en Italie pour un cocktail et une planche. »</p><span>Alex A. · Local Guide</span></div>
     </div>
     <div class="rev-score reveal">4,8 ★ sur Google · 95 avis</div>
-  </div>
-</section>
-
-<!-- VISITE + MAPS -->
-<section class="section" id="visite">
-  <div class="wrap">
-    <div class="visit-head reveal">
-      <div class="eyebrow">Nous rendre visite</div>
-      <h2>Réservez votre table</h2>
-    </div>
-    <div class="visit">
-      <div class="reveal">
-        <div class="info-row"><span class="k">Adresse</span><span class="v">28 Rue de la Paroisse<br>77300 Fontainebleau</span></div>
-        <div class="info-row"><span class="k">Téléphone</span><span class="v"><a href="tel:+33665902392" style="border-bottom:1px solid var(--gold);padding-bottom:2px">06 65 90 23 92</a></span></div>
-        <div class="info-row"><span class="k">Horaires</span><span class="v hours">
-          Lundi &nbsp;·&nbsp; 12h–14h · 18h30–22h<br>
-          Mardi &nbsp;·&nbsp; 12h–14h · 18h30–23h<br>
-          <span class="closed">Mercredi &nbsp;·&nbsp; Fermé</span><br>
-          Jeudi &nbsp;·&nbsp; 12h–14h · 18h30–23h<br>
-          Vendredi &nbsp;·&nbsp; 12h–14h · 18h30–23h<br>
-          Samedi &nbsp;·&nbsp; 12h–14h30 · 18h30–23h<br>
-          <span class="closed">Dimanche &nbsp;·&nbsp; Fermé</span>
-        </span></div>
-        <div class="info-row"><span class="k">Services</span><span class="v">Sur place · À emporter · Livraison · Terrasse</span></div>
-        <div class="visit-cta">
-          <a class="btn btn-dark" href="#" id="openModal2">Réserver par SMS</a>
-          <a class="btn btn-light" href="https://www.google.com/maps/dir/?api=1&destination=28+Rue+de+la+Paroisse+77300+Fontainebleau" target="_blank" rel="noopener">Itinéraire</a>
-        </div>
-      </div>
-      <div class="map-wrap reveal">
-        <iframe title="Localisation Il Ritrovo, 28 Rue de la Paroisse, Fontainebleau" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=28%20Rue%20de%20la%20Paroisse%2C%2077300%20Fontainebleau&output=embed"></iframe>
-      </div>
-    </div>
   </div>
 </section>
 
