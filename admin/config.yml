@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: VOTRE-COMPTE-GITHUB/VOTRE-DEPOT   # <-- A REMPLACER par ex. anton/il-ritrovo
+  repo: antonioussakov-rgb/Ritrovio  # <-- A REMPLACER par ex. anton/il-ritrovo
   branch: main
 
 media_folder: "images/dishes"
