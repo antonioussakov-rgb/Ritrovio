@@ -1,0 +1,26 @@
+{
+  "planches": {
+    "titre": "Les Planches",
+    "desc": "Charcuteries fines, burrata, fromages de caractère, tomates confites & pesto maison. Version végétarienne.",
+    "tag": "Signature",
+    "image": "/images/dishes/planches.jpg"
+  },
+  "dejeuner": {
+    "titre": "Le Déjeuner",
+    "desc": "Panini artisanaux, antipasti et planches, du mercredi au dimanche midi. Idéal à emporter.",
+    "tag": "",
+    "image": "/images/dishes/dejeuner.jpg"
+  },
+  "cocktails": {
+    "titre": "Les Cocktails",
+    "desc": "Spritz, Negroni Sbagliato, Bellini et nos mocktails signature. Vins & digestifs italiens.",
+    "tag": "Incontournable",
+    "image": "/images/dishes/cocktails.jpg"
+  },
+  "desserts": {
+    "titre": "Les desserts",
+    "desc": "Tiramisu crémeux et panna cotta à la framboise, préparés maison chaque jour.",
+    "tag": "",
+    "image": "/images/dishes/desserts.jpg"
+  }
+}
