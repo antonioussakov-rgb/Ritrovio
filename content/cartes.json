@@ -13,13 +13,13 @@
   },
   "cocktails": {
     "titre": "Les Cocktails",
-    "desc": "Spritz, Negroni Sbagliato, Bellini et nos mocktails signature. Vins & digestifs italiens.",
+    "desc": "Spritz, Negroni, Bellini mais surtout nos cocktails et mocktails signature. Vins & digestifs italiens.",
     "tag": "Incontournable",
-    "image": "/images/dishes/cocktails.jpg"
+    "image": "/images/dishes/ec5bae16-b9c0-4ced-94c6-0b61fe8b8862.jpeg"
   },
   "desserts": {
     "titre": "Les desserts",
-    "desc": "Tiramisu crémeux et panna cotta à la framboise, préparés maison chaque jour.",
+    "desc": "Tiramisu, panna cotta, crumble au citron préparés maison chaque jour par notre cheffe pâtissière Camille BONO.",
     "tag": "",
     "image": "/images/dishes/desserts.jpg"
   }
