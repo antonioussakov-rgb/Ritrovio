@@ -7,13 +7,13 @@
   },
   "dejeuner": {
     "titre": "Le Déjeuner",
-    "desc": "Panini artisanaux, antipasti et planches, du mercredi au dimanche midi. Idéal à emporter.",
+    "desc": "Pains artisanaux, antipasti, planche et plat du moment. Idéal à emporter.",
     "tag": "",
     "image": "/images/dishes/dejeuner.jpg"
   },
   "cocktails": {
     "titre": "Les Cocktails",
-    "desc": "Spritz, Negroni, Bellini mais surtout nos cocktails et mocktails signature. Vins & digestifs italiens.",
+    "desc": "Spritz, Negroni, Bellini mais surtout nos cocktails et mocktails signature. Vins & digestifs italiens certo !",
     "tag": "Incontournable",
     "image": "/images/dishes/ec5bae16-b9c0-4ced-94c6-0b61fe8b8862.jpeg"
   },
