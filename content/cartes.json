@@ -1,7 +1,7 @@
 {
   "planches": {
     "titre": "Les Planches",
-    "desc": "Charcuteries fines, burrata, fromages de caractère, tomates confites & pesto maison. Version végétarienne.",
+    "desc": "Charcuteries fines, burrata, fromages authentiques d’Italie, antipasti & pesto maison. \nVersion végétarienne.\n\nDes produits bruts sélectionnés avec amour dans un but précis : Satisfaire votre palais. ",
     "tag": "Signature",
     "image": "/images/dishes/planches.jpg"
   },
@@ -13,13 +13,13 @@
   },
   "cocktails": {
     "titre": "Les Cocktails",
-    "desc": "Spritz, Negroni, Bellini mais surtout nos cocktails et mocktails signature. Vins & digestifs italiens certo !",
+    "desc": "Spritz, Negroni, Bellini mais surtout nos cocktails et mocktails signatures. \n\nNotre chef barman mixologue sera comblé vos envies et laissez vous aller par une création personnalisée rien que pour vous. \n\nNotre sélection unique de vins et digestifs italiens certo !",
     "tag": "Incontournable",
     "image": "/images/dishes/ec5bae16-b9c0-4ced-94c6-0b61fe8b8862.jpeg"
   },
   "desserts": {
     "titre": "Les desserts",
-    "desc": "Tiramisu, panna cotta, crumble au citron préparés maison chaque jour par notre cheffe pâtissière Camille BONO.",
+    "desc": "Tiramisu, panna cotta (fruits de saison), crumble au citron ou brownie crème de mascarpone préparés maison chaque jour par notre cheffe pâtissière Camille BONO.",
     "tag": "",
     "image": "/images/dishes/desserts.jpg"
   }
