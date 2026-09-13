@@ -9,7 +9,7 @@
     "titre": "L’Aperitivo",
     "desc": "Pains artisanaux, antipasti, planche et plat du moment. Idéal à emporter.",
     "tag": "",
-    "image": "/images/dishes/dejeuner.jpg"
+    "image": "/images/dishes/aperitivo-.png"
   },
   "cocktails": {
     "titre": "Les Cocktails",
@@ -21,6 +21,6 @@
     "titre": "Les desserts",
     "desc": "Tiramisu, panna cotta (fruits de saison), crumble au citron ou brownie crème de mascarpone préparés maison chaque jour par notre cheffe pâtissière Camille BONO.",
     "tag": "",
-    "image": "/images/dishes/tiramisu.jpg"
+    "image": "/images/dishes/desserrt.png"
   }
 }
