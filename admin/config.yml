@@ -80,3 +80,11 @@ collections:
           - { label: "Adresse (ligne 2)", name: "adresse_l2", widget: "string" }
           - { label: "Téléphone", name: "telephone", widget: "string" }
           - { label: "Services", name: "services", widget: "string" }
+          - { label: "Horaires du lundi", name: "horaires_lundi", widget: "string", required: false, default: "18h–22h", hint: "Indiquez Fermé si besoin." }
+          - { label: "Horaires du mardi", name: "horaires_mardi", widget: "string", required: false, default: "18h–22h" }
+          - { label: "Horaires du mercredi", name: "horaires_mercredi", widget: "string", required: false, default: "18h–22h" }
+          - { label: "Horaires du jeudi", name: "horaires_jeudi", widget: "string", required: false, default: "18h–22h" }
+          - { label: "Horaires du vendredi", name: "horaires_vendredi", widget: "string", required: false, default: "18h–22h" }
+          - { label: "Horaires du samedi", name: "horaires_samedi", widget: "string", required: false, default: "12h–14h · 18h–22h" }
+          - { label: "Horaires du dimanche", name: "horaires_dimanche", widget: "string", required: false, default: "18h–22h" }
+          - { label: "Annonce sous les horaires (facultatif)", name: "horaires_note", widget: "string", required: false, hint: "Ex. fermeture exceptionnelle ; laisser vide pour masquer." }
