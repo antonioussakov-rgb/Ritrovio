@@ -1,26 +1,26 @@
 {
   "planches": {
-    "titre": "Les Planches",
-    "desc": "Charcuteries fines, burrata, fromages authentiques d’Italie, antipasti & pesto maison. \nVersion végétarienne.\n\nDes produits bruts sélectionnés avec amour dans un but précis : Satisfaire votre palais. ",
-    "tag": "Signature",
-    "image": "/images/dishes/img_6728.jpeg"
-  },
-  "dejeuner": {
-    "titre": "L’Aperitivo",
-    "desc": "Pains artisanaux, antipasti, planche et plat du moment. Idéal à emporter.",
+    "titre": "L'aperitivo",
+    "desc": "Charcuteries fines, burrata, fromages authentiques d’Italie, arancini, antipasti & pesto maison. \nVersion végétarienne.\nPlats et desserts faits maison.\n\nDes produits bruts sélectionnés avec amour dans un but précis : Satisfaire votre palais. ",
     "tag": "",
     "image": "/images/dishes/dsc07483.jpg"
+  },
+  "dejeuner": {
+    "titre": "Notre menu",
+    "desc": "Pains artisanaux, antipasti, planche et plat du moment. Idéal à emporter.",
+    "tag": "",
+    "image": "/images/dishes/menu-rv-maj-il-ritrovo-2_page-0001.jpg"
   },
   "cocktails": {
     "titre": "Les Cocktails",
     "desc": "Spritz, Negroni, Bellini mais surtout nos cocktails et mocktails signatures. \n\nNotre chef barman mixologue sera comblé vos envies et laissez vous aller par une création personnalisée rien que pour vous. \n\nNotre sélection unique de vins et digestifs italiens certo !",
     "tag": "Incontournable",
-    "image": "/images/dishes/cocktail-.png"
+    "image": "/images/dishes/menu-rv-maj-il-ritrovo-1_page-0001.jpg"
   },
   "desserts": {
-    "titre": "Les desserts",
-    "desc": "Tiramisu, panna cotta (fruits de saison), crumble au citron ou brownie crème de mascarpone préparés maison chaque jour par notre cheffe pâtissière Camille BONO.",
+    "titre": "Vi aspettiamo",
+    "desc": "Une salle intimiste et conviviale - Privatisation possible entre 15 et 30 personnes - Plusieurs formules disponibles en fonction de vos besoins.",
     "tag": "",
-    "image": "/images/dishes/desserrt.png"
+    "image": "/images/dishes/215e13ce-0a1f-4180-8c56-3bb83cd875bc.jpg"
   }
 }
